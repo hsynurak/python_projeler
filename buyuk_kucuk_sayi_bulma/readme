@@ -1,0 +1,10 @@
+Bu projenin asıl oluşturma amacım try-except-finally kod bloklarında pratik yapmaktır
+
+try     ==> kod bloğunu hatalara karşı denetler
+expect  ==> kod bloğunda bir hata durumunda belirtilen işlemleri yapar 
+finally ==> hata olsun olmasın en sonda yapılmasını istenilen kod parçasıdır
+
+Normalde bir hata olduğu zaman python hata mesajı yazdırır ve uygulamayı durdurur
+Try komudu ile beraber kod bloğunda oluşacak hataları denetleme imkanı buluruz.
+
+Konu hakkında basit ve yalın temel örnekler: https://python.sitesi.web.tr/python-try-except.html
