@@ -1,0 +1,11 @@
+Linear search, sequential search olarak da bilinir, en basit arama yöntemidir.
+
+Hedef elementi bulana kadar koleksiyon içerisinde bulunan bütün elemanları kontrol eder. 
+     Eğer hedef element koleksiyon içerisinde değilse, algoritma bütün elementleri kontrol eder.
+
+Linear search'de, O(n) time complexity vardır.   
+     n koleksiyon içerisinde olan eleman sayısıdır.
+     Bunun anlamı, koleksiyon içerisinde bulunan eleman sayısı artarsa searching işleminin alacağı zaman da linear olarak artar.
+
+Linear searching küçük ve sıralı olmayan koleksiyonlarda searching yapmak için uygundur.
+

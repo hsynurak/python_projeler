@@ -1,0 +1,14 @@
+Binary search, linear search algoritmasından daha hızlıdır.
+
+Ama binary search algoritması için sıralanmış listelere (sorted array) ihtiyaç duyarız. Sadece sıralı listeler ile çalışır.
+
+Binary search listeleri ortadan ikiye bölerek çalışır.
+     ortaya böldükten sonra orta eleman ile hedef elemanı kıyaslar
+     eğer hedef eleman orta elemandan küçük ise birinci yarıyı ele alır 
+          eğer hedef eleman orta elemandan büyük ise ikinci yarıyı ele alır
+     ele aldığı yeni kısıma da aynı sistemi uygular
+     hedefe ulaşana kadar veya hedefin listede olmadığını kanıtlayana kadar bu döngü devam eder
+
+Binary search algoritması O(log n) karmaşıklığına sahiptir.
+     n burada listede bulunan eleman sayısını temsil eder
+     n arttığı sürece, arama süresi logaritmik olarak artar.
