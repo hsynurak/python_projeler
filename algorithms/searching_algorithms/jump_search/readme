@@ -1,0 +1,8 @@
+Jump search, binary gibi parçalama mantığını, linear gibi sıralı olarak kontrol etme mantığını kullanır.
+
+Bu algoritmayı kullanmak için sıralanmış bir liste (sorted array) gereklidir.
+
+Jump search öncelikle belli bir blocksize ile blocklara ayrılır.
+     Oluşturulan blockların son elemanı hedef elemana eşit yada ondan büyük olana kadar blocklar arasında sırayla geçiş sağlanır.
+     Eğer blockun son elemanı hedef elemana eşit yada ondan büyükse, o blockun içinde linear search ile hedef eleman bulunur.
+
