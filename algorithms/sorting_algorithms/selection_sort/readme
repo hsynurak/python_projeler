@@ -1,0 +1,12 @@
+Selection sorting algoritmalarında sürekli olarak en küçük değer bulunarak işlem gerçekleştirilir.
+
+İki adet alt array bulunur.
+     Bunlar sorted ve unsorted olarak isimlendirilebilir.
+
+0. indexten başlayarak tüm indexlere bakarak en küçük değer bulunur ve eğer farklı bir indexte ise swap gerçekleştirilir.
+     Swap işlemi gerçekleştiği zaman 0. indexe en küçük eleman gelmiş olur. 
+     En küçük eleman geldikten sonra o sorted array kısmına geçer.
+          Bundan sonra kalan elemanlar unsorted olarak nitelenir
+          Bu unsorted array kısmının ilk elemanı olan 1. index değeri ile diğer değerler kıyaslanır ve gerekli swap işlemi gerçekleştirilir
+
+Bu işlem bütün array sorted olana kadar devam eder.
