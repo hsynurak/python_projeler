@@ -1,0 +1,6 @@
+Insertion sorting işleminde birinci indexte bulunan elemanı key değeri alarak başlıyoruz. 
+     Alınan key değerini kendisinden önce gelen değerler ile kıyaslıyoruz.
+     Gerekli olması durumunda swap yaparak yerini değiştiriyoruz.
+          Birinci indexte bulunan eleman ile bu işlemi gerçekleştirdikten sonra sırası ile son indexte bulunan elemana doğru bu döngü tekrarlanır.
+
+
