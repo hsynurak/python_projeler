@@ -1,0 +1,12 @@
+Heap sort algoritmasında binary tree benzeri bir ağaç sistemi oluşturulur.
+Bu ağaç sisteminin kendisine özel bir sistemi vardır.
+     Sıra ile hanelerin hepsini doldurarak liste içinde bulunan değerler ağaca yerleştirilir.
+     Ardından heapify denilen işlem yapılır.
+          Bu işlemin özelliği, hiçbir parent değer kendisinin alt değerlerinden küçük olmamasıdır. Alt değerlere eşit veya onlardan büyük olması gerekir.
+     
+Ağaç sistemi oluştuğu zaman root değeri yani en üst sırada bulunan değer en büyük değer olur. 
+     Bu root değer en son değer ile swap edilir.
+     Swap sonrasında en sona giden root değeri ağaçtan çıkarılır.
+
+Bu işlem devam ederek sonuca gidilir.
+     

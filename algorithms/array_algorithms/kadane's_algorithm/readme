@@ -1,0 +1,14 @@
+We use this algorithm to find maximum sum of subbaray.
+Before this algorithm there is another way; BRUTE FORCE APPROACH.
+     This way is not good as kadanes, but it can be helpful for other problems.
+     This alternative way start from index 0 and calculate all possible sum of subarrays.
+     After this calculation, it founds local maximum values for each starting index.
+     Finally compare all this local maximum values and finds global maximum.
+
+For kadane's algorithm create two variable, current_sum and max_sum.
+     Assign index zero value to this variables.
+     Start from index 1 to last index, compare current_sum and current_sum + current_index_value
+     Put the max value of this two values to current_sum variable.
+     After checking the current_sum value, compare this current_sum with max_sum value.
+     Put the max value of this values to max_sum variable.
+     
